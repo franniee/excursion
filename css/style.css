@@ -1,9 +1,13 @@
-.body {
+body {
   font-family: Verdana, sans-serif;
-  background-color: black;
+  background-color: #000000;
 }
 
-#id {
+.white {
+  color: white;
+}
+
+#link {
   color: aquamarine;
   font-size: 16px;
 }
@@ -11,6 +15,10 @@
 #large-title {
   font-weight: normal;
   font-size: 50px;
-  font-color: white;
+  font-color: #ffffff;
+}
+
+#link,
+#large-title {
   text-align: center;
 }
